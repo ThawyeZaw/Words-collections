@@ -6,16 +6,18 @@ fetch("/./assets/words.json")
     for (const word in json) {
       console.log(word, json[word].category)
       let { meaning, category, synonyms } = json[word],
-      categories = [], synonym = []
+        categories = [], synonym = []
       synonyms.map(s => synonym.push(`<li>${s}</li>`))
       category.map(c => categories.push(`<li>${c}</li>`))
       let output_1 = categories.join(""),
-      output_2 = synonym.join("")
+        output_2 = synonym.join("")
 
       list.innerHTML += `
       <li class="word">
-					<b>${word}</b>
-          <span>--- ${meaning}</span>
+      <p style="display: flex;">
+        <b>${word}</b>
+        <span>--- ${meaning}</span>
+      <p>
 					<ul class="about">
 						<li>
 							<i>categories</i>

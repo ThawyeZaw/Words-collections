@@ -4,13 +4,22 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Dictionary</title>
-    <link rel="stylesheet" href="/./src/style.css">
+		<link rel="stylesheet" href="/./src/style.css" />
+		<link rel="stylesheet" href="./dictionary.css" />
 	</head>
 	<body>
 		<div class="container">
 			<h2>Dictionary</h2>
+			<section>
+				<input type="search" name="word" id="word" list="words" />
+				<input type="button" value="Search word" onclick="findWord()">
+				<datalist id="words"></datalist>
+				<p>
+						
+				</p>
+			</section>
 		</div>
 		<script src="/./src/script.js"></script>
-    
+		<script src="./dictionary.js"></script>
 	</body>
 </html>
