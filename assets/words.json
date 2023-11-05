@@ -1,0 +1,247 @@
+{
+	"chafe": {
+		"meaning": "become or make annoyed or impatient because of a restriction or inconvenience",
+		"category": ["adjective", "noun", "opinion"],
+		"synonyms": ["hot", "annoying", "uncomfortable"]
+	},
+	"gleeful": {
+		"meaning": "exuberantly or triumphantly joyful",
+		"category": ["adjective", "opinion"],
+		"synonyms": ["happy", "celebrate", "lively"]
+	},
+	"sundry": {
+		"meaning": "of various kinds; several.",
+		"category": ["adjective", "noun", "opinion"],
+		"synonyms": ["different", "varied", "several"]
+	},
+	"intricate": {
+		"meaning": "very complicated or detailed",
+		"category": ["adjective", "opinion"],
+		"synonyms": ["complex", "detailed"]
+	},
+	"sophisticated": {
+		"meaning": "advanced; modern",
+		"category": ["adjective", "opinion"],
+		"synonyms": ["modern", "advanced", "high-tech"]
+	},
+	"subtle": {
+		"meaning": "so delicate or precise as to be difficult to analyse or describe",
+		"category": ["adjective", "opinion"],
+		"synonyms": ["delicate", "vague", "indirect"]
+	},
+	"ostentatious": {
+		"meaning": "showy display; designed to impress",
+		"category": ["adjective", "opinion"],
+		"synonyms": ["grand", "magnificient", "grandiose"]
+	},
+	"threshold": {
+		"meaning": "a point of entry, a barrier that must be crossed",
+		"category": ["noun", "object"],
+		"synonyms": ["door", "entry", "gate"]
+	},
+	"serene": {
+		"meaning": "calm, peaceful, and untroubled; tranquil",
+		"category": ["adjective", "opinion"],
+		"synonyms": ["calm", "peaceful", "tranquil"]
+	},
+	"flourscent": {
+		"meaning": "vividly colourful",
+		"category": ["adjective", "opinion"],
+		"synonyms": ["bright", "glowing"]
+	},
+	"nostalgic": {
+		"meaning": "feeling, evoking, or characterized by nostalgia; feeling from the past",
+		"category": ["adjective", "opinion"],
+		"synonyms": ["evocative", "regretful", "romantic"]
+	},
+	"asphalt": {
+		"meaning": "a mixture of dark pitch with sand or gravel, used for surfacing roads",
+		"category": ["noun", "verb", "material"],
+		"synonyms": ["road", "bitumen", "tarmac"]
+	},
+	"tarmac": {
+		"meaning": "material used for surfacing roads or other outdoor areas",
+		"category": ["noun", "material"],
+		"synonyms": ["asphalt", "road"]
+	},
+	"periphery": {
+		"meaning": "the outer limits or edge of an area or object.",
+		"category": ["noun", "position", "place"],
+		"synonyms": ["border", "edge", "perimeter"]
+	},
+	"desolate": {
+		"meaning": "feeling or showing great unhappiness or loneliness",
+		"category": ["adjective", "verb", "opinion", "feeling"],
+		"synonyms": ["lonely", "sad", "gloomy", "isolate"]
+	},
+	"despondent": {
+		"meaning": "in low spirits from loss of hope or courage",
+		"category": ["adjective", "feeling"],
+		"synonyms": ["hopless", "sad", "depressed"]
+	},
+	"sully": {
+		"meaning": "make dirty; damage the purity of",
+		"category": ["adjective", "opinion"],
+		"synonyms": ["impure", "dishonor", "injure", "damage"]
+	},
+	"sooty": {
+		"meaning": "covered with or coloured like soot",
+		"category": ["adjective", "opinion", "colour"],
+		"synonyms": ["dirty", "black", "smoky"]
+	},
+	"solitude": {
+		"meaning": "the state or situation of being alone",
+		"category": ["noun", "place"],
+		"synonyms": ["loneliness", "emptiness", "remoteness"]
+	},
+	"specter": {
+		"meaning": "a ghost",
+		"category": ["noun", "untouchable"],
+		"synonyms": ["ghost", "phamtom", "spirit", "shadow"]
+	},
+	"prowl": {
+		"meaning": "move about restlessly and stealthily, especially in search of prey",
+		"category": ["verb", "noun", "action", "movement"],
+		"synonyms": ["sneak", "hunt", "haunt"]
+	},
+	"gnarled": {
+		"meaning": "knobbly, rough, and twisted, especially with age",
+		"category": ["adjective", "shape"],
+		"synonyms": ["twisted", "warped"]
+	},
+	"poignant": {
+		"meaning": "evoking a keen sense of sadness or regret",
+		"category": ["adjective", "opinion", "feeling"],
+		"synonyms": ["saddening", "painful", "tragic"]
+	},
+	"mingle": {
+		"meaning": "mix or cause to mix together",
+		"category": ["verb", "action"],
+		"synonyms": ["mix", "blend", "merge", "combine"]
+	},
+	"tapestry": {
+		"meaning": " a heavy cloth that has designs or pictures woven into it and that is used for wall hangings, curtains",
+		"category": ["noun", "shape"],
+		"synonyms": ["pattern", "embroidery"]
+	},
+	"erode": {
+		"meaning": "be gradually worn away by natural agents",
+		"category": ["verb", "state"],
+		"synonyms": ["corrode", "decay", "eat away"]
+	},
+	"haphazard": {
+		"meaning": "lacking any obvious principle of organization",
+		"category": ["adjective", "opinion"],
+		"synonyms": ["random", "disorganized", "chaotic"]
+	},
+	"chime": {
+		"meaning": "a melodious ringing sound, as produced by striking a bell",
+		"category": ["noun", "verb", "sound"],
+		"synonyms": ["ring", "bell", "tinkle"]
+	},
+	"adherence": {
+		"meaning": "attachment or commitment to a person, cause, or belief; being faithful to",
+		"category": ["noun"],
+		"synonyms": ["obedient", "loyalty", "commitment"]
+	},
+	"casualty": {
+		"meaning": "a person killed or injured in a war or accident",
+		"category": ["noun"],
+		"synonyms": []
+	},
+	"rejuvenate": {
+		"meaning": "restore a youthful appearance to",
+		"category": ["verb", "action"],
+		"synonyms": ["revive", "restore", "regenerate"]
+	},
+	"imbue": {
+		"meaning": "to fill something or someone with a particular feeling, quality, or idea",
+		"category": ["verb", "action"],
+		"synonyms": ["fill", "charge", "load"]
+	},
+	"stroll": {
+		"meaning": "walk in a leisurely way",
+		"category": ["verb", "action", "movement"],
+		"synonyms": ["saunter", "walk", "roam"]
+	},
+	"seclude": {
+		"meaning": "keep someone away from other people",
+		"category": ["action", "action", "state"],
+		"synonyms": ["isolate", "seperate"]
+	},
+	"gourmet": {
+		"meaning": "a connoisseur of good food",
+		"category": ["noun", "person"],
+		"synonyms": ["foodie", "epicure"]
+	},
+	"ripple": {
+		"meaning": "a small wave or series of waves on the surface of water",
+		"category": ["noun", "shape"],
+		"synonyms": ["raffle", "wave", "babble"]
+	},
+	"reprieve": {
+		"meaning": "cancel or postpone the punishment",
+		"category": ["verb", "noun", "action"],
+		"synonyms": ["postpone", "suspense", "release"]
+	},
+	"immerse": {
+		"meaning": "dip or submerge in a liquid",
+		"category": ["verb", "action"],
+		"synonyms": ["absorb", "submerge", "bury"]
+	},
+	"indulge": {
+		"meaning": "allow oneself to enjoy the pleasure of",
+		"category": ["verb", "action"],
+		"synonyms": ["spoil", "baby", "sastify"]
+	},
+	"hammock": {
+		"meaning": "a swinging couch or bed supports by ropes at both ends",
+		"category": ["noun", "object"],
+		"synonyms": ["hummock", "bed", "sack"]
+	},
+	"lull": {
+		"meaning": "calm or send to sleep, typically with soothing sounds",
+		"category": ["verb", "noun", "action"],
+		"synonyms": ["soothe", "quiet", "tranquilize"]
+	},
+	"canopy": {
+		"meaning": "covering, usually of fabric",
+		"category": ["noun", "object"],
+		"synonyms": ["sunshade", "cover", "roof"]
+	},
+	"exotic": {
+		"meaning": "originating in or characteristic of a distant foreign country",
+		"category": ["adjective", "noun", "origin"],
+		"synonyms": ["foreign", "different", "non-native"]
+	},
+	"emerald": {
+		"meaning": "a bright green colour",
+		"category": ["noun", "adjective", "colour"],
+		"synonyms": ["green", "jade"]
+	},
+	"crimson": {
+		"meaning": "a rich deep red colour",
+		"category": ["noun", "adjective", "colour"],
+		"synonyms": ["red", "scarlet", "ruby"]
+	},
+	"credulous": {
+		"meaning": "having or showing too great a readiness to believe things",
+		"category": ["adjective", "opinion"],
+		"synonyms": ["naive", "innocent", "gullible"]
+	},
+	"implausible": {
+		"meaning": "not seeming reasonable or probable; failing to convince",
+		"category": ["adjective", "opinion"],
+		"synonyms": ["questionable", "unbelievable", "impossible"]
+	},
+	"chagrined": {
+		"meaning": "feel distressed or humiliated",
+		"category": ["adjective", "opinion"],
+		"synonyms": ["embrassed", "annoyed", "humiliate"]
+	},
+	"impertinent": {
+		"meaning": "not showing proper respect; rude",
+		"category": ["adjective", "opinion"],
+		"synonyms": ["sassy", "bold", "rude"]
+	}
+}

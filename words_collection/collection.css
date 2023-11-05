@@ -1,0 +1,16 @@
+.about{
+  display: flex;
+  margin-top: 0.5em;
+}
+
+.about > * {
+  margin-left: 3rem;
+}
+
+span {
+  margin-left: 2rem;
+}
+
+/* .word{
+  padding-bottom: 0em;
+} */
