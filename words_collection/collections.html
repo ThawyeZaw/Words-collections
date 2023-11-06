@@ -10,9 +10,38 @@
 	<body>
 		<div class="container">
 			<h2>My words collections</h2>
+			<div class="wrapper">
+				<div class="filter">
+					<div id="filter">
+						<div class="categories">
+							<!-- -------------- categories --------------- -->
+						</div>
+						<button onclick="filterWords()">Filter</button>
+						<button onclick="removeFilter()">Remove Filter</button>
+					</div>
+					<div class="showfilter">
+						<button id="showfilter">Show Filters</button>
+						<button id="hidefilter">Hide Filters</button>
+					</div>
+				</div>
+				<div class="buttons">
+					<button onclick="show()">Show more</button>
+					<button onclick="hide()">Show less</button>
+				</div>
+			</div>
 			<ol class="list"></ol>
 		</div>
 		<script src="./collection.js"></script>
 		<script src="/./src/script.js"></script>
+		<script>
+			const box = document.querySelector('.categories'),
+				categories = ['adjective', 'noun', ' verb', 'opinion', 'action', 'object', 'person', 'state', 'feeling', 'material', 'position', 'place', 'untouchable', 'colour']
+
+			categories.forEach(c => {
+				box.innerHTML += `
+					<input type="radio" name="category" id="${c}" value="${c}" />
+					<label for="${c}">${c}</label><br />`
+			})
+		</script>
 	</body>
 </html>
