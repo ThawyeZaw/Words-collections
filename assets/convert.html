@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <input type="text" name="word" id="word">
+  <label for="word">word</label>
+  <br>
+  <input type="text" name="meaning" id="meaning">
+  <label for="meaning">meaning</label>
+  <br>
+  <input type="text" name="category" id="category">
+  <label for="category">category</label>
+  <br>
+  <input type="text" name="synonyms" id="synonyms">
+  <label for="synonyms">synonyms</label>
+  <br>
+  <button onclick="show()">Show</button>
+  <!-- <br>
+  <textarea name="value" id="value" cols="30" rows="10"></textarea>
+  <button onclick="convert()">Convert</button> -->
+
+  <div class="display">
+
+  </div>
+  <script>
+    const display = document.querySelector('.display'),
+    word = document.querySelector('#word'),
+    meaning = document.querySelector('#meaning'),
+    category = document.querySelector('#category'),
+    synonyms = document.querySelector('#synonyms')
+
+    function show() {
+      let categories = category.value.split(" "),
+      synonyms_ = synonyms.value.split(" ")
+      display.innerHTML += `
+    "${word.value}": {
+		"meaning": "${meaning.value}",
+		"category": [${categories.map(c => `"${c}"`)}],
+		"synonyms": [${synonyms_.map(s => `"${s}"`)}]
+	},`
+    }
+
+  //   function convert() {
+  //     const value = document.querySelector('#value')
+  //     let values = value.value.split('`')
+  //     values.forEach(v => {
+  //       display.innerHTML += `
+  //   "${v.split(':')[0]}": {
+	// 	"meaning": "${v.split(':')[1]}",
+	// 	"category": [],
+	// 	"synonyms": []
+	// },`
+  //     });
+  //   }
+  </script>
+</body>
+</html>
