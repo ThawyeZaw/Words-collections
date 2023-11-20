@@ -147,7 +147,7 @@
 	"casualty": {
 		"meaning": "a person killed or injured in a war or accident",
 		"category": ["noun"],
-		"synonyms": []
+		"synonyms": ["victim", "fatality", "prey"]
 	},
 	"rejuvenate": {
 		"meaning": "restore a youthful appearance to",
@@ -246,129 +246,123 @@
 	},
 	"Exquisite": {
 		"meaning": "beautiful or pretty.",
-		"category": [],
-		"synonyms": []
+		"category": ["adjective", "noun", "opinion"],
+		"synonyms": ["dainty", "elegant", "lovely"]
 	},
 	"Adverse": {
 		"meaning": "having a negative or harmful effect on something.",
-		"category": [],
-		"synonyms": []
-	},
-	"Transition": {
-		"meaning": "a change from one form or type to another, or the process by which this happens",
-		"category": [],
-		"synonyms": []
+		"category": ["verb", "opinion", "state"],
+		"synonyms": ["negative", "unfriendly", "antagonistic"]
 	},
 	"Superficial": {
 		"meaning": "never thinking about things that are serious or important.",
-		"category": [],
-		"synonyms": []
+		"category": ["adjective", "opinion"],
+		"synonyms": ["shallow", "surface", "frivolous"]
 	},
 	"Adolescent": {
 		"meaning": "a young person who is developing into an adult.",
-		"category": [],
-		"synonyms": []
+		"category": ["adjective", "noun", "state"],
+		"synonyms": ["teenager", "juvenile", "young"]
 	},
 	"Accumulate": {
 		"meaning": "to collect a large number of something over a long period of time.",
-		"category": [],
-		"synonyms": []
+		"category": ["verb", "action"],
+		"synonyms": ["gather", "pile up", "store"]
 	},
 	"Abrupt": {
 		"meaning": "Sudden and unexpected, usually unpleasant.",
-		"category": [],
-		"synonyms": []
+		"category": ["adjective", "opinion"],
+		"synonyms": ["sudden", "precipitious", "steep"]
 	},
-	"Interval": { "meaning": "a period between two events or times.", "category": [], "synonyms": [] },
+	"Interval": {
+		"meaning": "a period between two events or times.",
+		"category": ["noun", "time"],
+		"synonyms": ["gap", "break", "intermission"]
+	},
 	"Advocate": {
 		"meaning": "to publicly support or suggest an idea, development, or way of doing something.",
-		"category": [],
-		"synonyms": []
+		"category": ["noun", "adjective", "person"],
+		"synonyms": ["support", "suppoter", "recommend"]
 	},
 	"Affectionate": {
 		"meaning": "showing feelings of liking or love.",
-		"category": [],
-		"synonyms": []
+		"category": ["adjective", "feeling"],
+		"synonyms": ["loving", "friendly", "kind"]
 	},
 	"Precede": {
 		"meaning": "to be or go before something or someone in time or space.",
-		"category": [],
-		"synonyms": []
+		"category": ["verb", "action"],
+		"synonyms": ["lead", "introduce", "go ahead"]
 	},
 	"Agenda": {
 		"meaning": "a list of aims or possible future achievements.",
-		"category": [],
-		"synonyms": []
+		"category": ["noun", "untouchable"],
+		"synonyms": ["schedule", "plan", "programme"]
 	},
 	"Albeit": {
 		"meaning": "although.",
-		"category": [],
-		"synonyms": []
+		"category": ["conjunction"],
+		"synonyms": ["although", "though", "but"]
 	},
 	"Loathe": {
 		"meaning": "to hate someone or something.",
-		"category": [],
-		"synonyms": []
+		"category": ["verb", "action", "feeling"],
+		"synonyms": ["hate", "despise", "detest"]
 	},
 	"Allege": {
 		"meaning": "to say that someone has done something illegal or wrong without giving proof.",
-		"category": [],
-		"synonyms": []
+		"category": ["verb", "action"],
+		"synonyms": ["insist", "claim", "contend"]
 	},
 	"Inherent": {
 		"meaning": "existing as a natural or basic part of something.",
-		"category": [],
-		"synonyms": []
+		"category": ["adjective", "state"],
+		"synonyms": ["intrinsic", "integral", "essential"]
 	},
 	"Intuition": {
 		"meaning": "an ability to understand or know something immediately based on your feelings rather than facts.",
-		"category": [],
-		"synonyms": []
+		"category": ["noun", "feeling", "adjective"],
+		"synonyms": ["instinct", "insight", "feel"]
 	},
 	"Ambiguous": {
 		"meaning": "having or expressing more than one possible meaning, sometimes intentionally.",
-		"category": [],
-		"synonyms": []
+		"category": ["adjective", "state"],
+		"synonyms": ["cryptic", "obscure", "dark"]
 	},
 	"Analogy": {
 		"meaning": "a comparison between things that have similar features, often used to help a principle or idea.",
-		"category": [],
-		"synonyms": []
-	},
-	"Analogous to": {
-		"meaning": "having similar features to another thing and therefore able to be compared with it.",
-		"category": [],
-		"synonyms": []
+		"category": ["noun", "untouchable"],
+		"synonyms": ["metaphor", "simile", "idiom"]
 	},
 	"Explicit": {
-		"meaning": "clear and exact.",
-		"category": [],
-		"synonyms": []
+		"meaning": "clear and exact",
+		"category": ["adjective", "opinion"],
+		"synonyms": ["specific", "express", "definite"]
 	},
 	"Offspring": {
-		"meaning": "the young of an animal or a person's children.",
-		"category": [],
-		"synonyms": []
+		"meaning": "the young of an animal or a person's children",
+		"category": ["noun", "state"],
+		"synonyms": ["baby", "youngster"]
 	},
 	"Intrude": {
 		"meaning": "to go into a place or situation in which you are not wanted or not expected to be",
-		"category": [],
-		"synonyms": []
+		"category": ["verb", "action"],
+		"synonyms": ["invade", "interfere"]
 	},
 	"Exclaim": {
 		"meaning": "to say or shout something suddenly because of surprise, fear, pleasure, etc.",
-		"category": [],
-		"synonyms": []
+		"category": ["verb", "action"],
+		"synonyms": ["cry out", "declare", "scream"]
 	},
 	"Ironic": {
 		"meaning": "interesting, strange, or funny because of being very different from what you would usually expect.",
-		"category": [],
-		"synonyms": []
+		"category": ["adjective", "opinion"],
+		"synonyms": [""]
 	},
 	"Extremist": {
 		"meaning": "someone who has beliefs that most people think are unreasonable and unacceptable.",
 		"category": [],
-		"synonyms": []
+		"synonyms": ["radical", "extreme", "rabid"]
 	},
 	"Awe": {
 		"meaning": "a feeling of great respect sometimes mixed with fear or surprise.",
@@ -383,7 +377,7 @@
 	"Arouse": {
 		"meaning": "to cause someone to have a particular feeling.",
 		"category": [],
-		"synonyms": []
+		"synonyms": ["awaken", "wake", "rouse"]
 	},
 	"Sentiment": {
 		"meaning": "a thought, opinion, or idea based on a feeling about a situation, or a way of thinking about something.",
@@ -398,12 +392,12 @@
 	"Pathetic": {
 		"meaning": "causing feelings of sadness, sympathy, or sometimes lack of respect, especially because a person or an animal is suffering.",
 		"category": [],
-		"synonyms": []
+		"synonyms": ["pitiful", "poor", "miserable"]
 	},
 	"Compliment": {
 		"meaning": "a remark that expresses approval, admiration, or respect.",
 		"category": [],
-		"synonyms": []
+		"synonyms": ["tribute", "commendation", "salutation"]
 	},
 	"Merge": {
 		"meaning": "to combine or join together, or to cause things to do this.",
@@ -428,12 +422,12 @@
 	"Interpretation": {
 		"meaning": "an explanation or opinion of what something means.",
 		"category": [],
-		"synonyms": []
+		"synonyms": ["explanation", "illustration", "translation"]
 	},
 	"Vague": {
 		"meaning": "A vague person is not able to think clearly, or gives an impression of not thinking clearly in order to hide their real thoughts.",
 		"category": [],
-		"synonyms": []
+		"synonyms": ["unclear", "ambiguous", "fuzzy"]
 	},
 	"Interim": {
 		"meaning": "temporary and intended to be used or accepted until something permanent exists.",
@@ -443,7 +437,7 @@
 	"Superior": {
 		"meaning": "A superior person believes that or acts as if they are better than other people.",
 		"category": [],
-		"synonyms": []
+		"synonyms": ["arrogant", "dominant", "important"]
 	},
 	"Surpass": {
 		"meaning": "to do or be better than.",
@@ -463,7 +457,7 @@
 	"Bind": {
 		"meaning": "to tie something or someone tightly or to fasten something.",
 		"category": [],
-		"synonyms": []
+		"synonyms": ["tie", "constrain", "confine"]
 	},
 	"Bland": {
 		"meaning": "not having a strong taste or character or not showing any interest or energy.",
@@ -473,32 +467,32 @@
 	"Bleak": {
 		"meaning": "If a situation is bleak, there is little or no hope for the future (2) If a place is bleak, it is empty, and not welcoming or attractive.",
 		"category": [],
-		"synonyms": []
+		"synonyms": ["depressing", "somber", "dark"]
 	},
 	"Blister": {
 		"meaning": "a painful swelling on the skin that contains liquid, caused usually by continuous rubbing, especially on your foot, or by burning.",
 		"category": [],
-		"synonyms": []
+		"synonyms": ["pimple", "pustule", "papule"]
 	},
 	"Swell": {
 		"meaning": "to become larger and rounder than usual; to (cause to) increase in size or amount.",
 		"category": [],
-		"synonyms": []
+		"synonyms": ["great", "excellent", "terrific"]
 	},
 	"Blue": {
 		"meaning": "feeling or showing sadness.",
 		"category": [],
-		"synonyms": []
+		"synonyms": ["pornographic", "obscene", "vulgar"]
 	},
 	"Blunt": {
 		"meaning": "A blunt pencil, knife, etc. is not sharp and therefore not able to write, cut, etc. Well.",
 		"category": [],
-		"synonyms": []
+		"synonyms": ["abrupt", "short", "gruff"]
 	},
 	"Breadth": {
 		"meaning": "the fact of including many different things, features, subjects, or qualities.",
 		"category": [],
-		"synonyms": []
+		"synonyms": ["expansion", "expanse", "length"]
 	},
 	"Breed": {
 		"meaning": "to cause something to happen, usually something bad.",
@@ -508,32 +502,32 @@
 	"Resent": {
 		"meaning": "to feel angry because you have been forced to accept someone or something that you do not like.",
 		"category": [],
-		"synonyms": []
+		"synonyms": ["envy", "begrudge", "want"]
 	},
 	"Brink": {
 		"meaning": "the point where a new or different situation is about to begin.",
 		"category": [],
-		"synonyms": []
+		"synonyms": ["verge", "cusp", "edge"]
 	},
 	"Burst": {
 		"meaning": "to feel a strong emotion, or strong wish to do something.",
 		"category": [],
-		"synonyms": []
+		"synonyms": ["explode", "detonate", "pop"]
 	},
 	"Indulge": {
 		"meaning": "to allow yourself or another person to have something enjoyable, especially more than is good for you.",
 		"category": [],
-		"synonyms": []
+		"synonyms": ["gratify", "please", "humor"]
 	},
 	"Patriotism": {
 		"meaning": "the feeling of loving your country more than any others and being proud of it.",
 		"category": [],
-		"synonyms": []
+		"synonyms": ["nationalism", "devotion", "loyalty"]
 	},
 	"Elaborate": {
 		"meaning": "containing a lot of careful details or many detailed parts.",
 		"category": [],
-		"synonyms": []
+		"synonyms": ["detailed", "intricate", "complicated"]
 	},
 	"Inscription": {
 		"meaning": "words that are written or cut in something.",
@@ -543,12 +537,12 @@
 	"Wear": {
 		"meaning": "to show a particular emotion on your face.",
 		"category": [],
-		"synonyms": []
+		"synonyms": ["kill", "tire", "exhaust"]
 	},
 	"Wicked": {
 		"meaning": "morally wrong and bad.",
 		"category": [],
-		"synonyms": []
+		"synonyms": ["evil", "sinful", "immoral"]
 	},
 	"Incur": {
 		"meaning": "to experience something, usually something unpleasant, as a result of actions you have taken",
@@ -558,12 +552,12 @@
 	"Soothing": {
 		"meaning": "making you feel calm",
 		"category": [],
-		"synonyms": []
+		"synonyms": ["relaxing", "comforting", "tranquilizing"]
 	},
 	"Discreet": {
 		"meaning": "careful not to cause embarrassment or attract too much attention, especially by keeping something secret",
 		"category": [],
-		"synonyms": []
+		"synonyms": ["intelligent", "cautious", "prudent"]
 	},
 	"Fulfil": {
 		"meaning": "to satisfy someone or to make someone feel happy",
@@ -588,37 +582,37 @@
 	"Inflict": {
 		"meaning": "to force someone to experience something very unpleasant",
 		"category": [],
-		"synonyms": []
+		"synonyms": ["impose", "create", "force"]
 	},
 	"Surplus": {
 		"meaning": "(an amount that is) more than is needed",
 		"category": [],
-		"synonyms": []
+		"synonyms": ["excess", "extra", "spare"]
 	},
 	"Deem": {
 		"meaning": "to consider or judge something in a particular way",
 		"category": [],
-		"synonyms": []
+		"synonyms": ["think", "believe", "consider"]
 	},
 	"Apologetic": {
 		"meaning": "showing that you feel sorry about having caused someone problems or unhappiness",
 		"category": [],
-		"synonyms": []
+		"synonyms": ["sorry", "ashamed", "remorseful"]
 	},
 	"Arbitrary": {
 		"meaning": "based on chance rather than being planned or based on reason",
 		"category": [],
-		"synonyms": []
+		"synonyms": ["arrogant", "wilful", "unfair"]
 	},
 	"Arid": {
 		"meaning": "barren/ having little rain/ dry",
 		"category": [],
-		"synonyms": []
+		"synonyms": ["boring", "dusty", "tiring"]
 	},
 	"Imply": {
 		"meaning": "to communicate an idea or feeling without saying it directly (2) (as something implies) used to show that the name, explanation, etc. of something tells you something else about it",
 		"category": [],
-		"synonyms": []
+		"synonyms": ["indicate", "suggest", "hint"]
 	},
 	"Assert": {
 		"meaning": "to behave in a way that expresses your confidence, importance, or power and earns you respect from others; assert",
@@ -628,7 +622,7 @@
 	"Calf": {
 		"meaning": "the thick curved part at the back of the human leg between the knee and the foot",
 		"category": [],
-		"synonyms": []
+		"synonyms": ["thigh", "shin", "shank"]
 	},
 	"Torn": {
 		"meaning": "finding it difficult to choose between two possibilities",
@@ -638,7 +632,7 @@
 	"Catastrophe": {
 		"meaning": "a sudden event that causes very great trouble or destruction",
 		"category": [],
-		"synonyms": []
+		"synonyms": ["disaster", "apocalypse", "tragedy"]
 	},
 	"Chronic": {
 		"meaning": "(especially of a disease or something bad) continuing for a long time",
@@ -648,17 +642,17 @@
 	"Circuit": {
 		"meaning": "a regular pattern of visits or the places visited",
 		"category": [],
-		"synonyms": []
+		"synonyms": ["circumference", "compass", "ambit"]
 	},
 	"Cliché": {
 		"meaning": "a phrase, remark, or opinion that has very often been said or expressed before and is therefore not original and not interesting",
 		"category": [],
-		"synonyms": []
+		"synonyms": ["stereotyped", "tired", "hackneyed"]
 	},
 	"Coherent": {
 		"meaning": "If an argument, set of ideas, or a plan is coherent, it is clear and carefully considered, and each part of it connects or follows in a natural or reasonable way",
 		"category": [],
-		"synonyms": []
+		"synonyms": ["logical", "rational", "reasonable"]
 	},
 	"Dispute": {
 		"meaning": "an argument or disagreement, especially an official one between, for example, workers and employers or two countries with a common border",
@@ -673,12 +667,12 @@
 	"Commemorate": {
 		"meaning": "to remember officially and give respect to a great person or event, especially by a public ceremony or by making a statue or special building",
 		"category": [],
-		"synonyms": []
+		"synonyms": ["celebrate", "memorialize", "honor"]
 	},
 	"Compensate": {
 		"meaning": "to provide something good or useful in place of something or to make someone feel better about something that has failed or been lost or missed",
 		"category": [],
-		"synonyms": []
+		"synonyms": ["reimburse", "satisfy", "pay"]
 	},
 	"Compromise": {
 		"meaning": "We would never compromise the safety of our passengers",
@@ -688,52 +682,52 @@
 	"Compulsive": {
 		"meaning": "doing something a lot and unable to stop doing it",
 		"category": [],
-		"synonyms": []
+		"synonyms": ["obsessive", "impulsive", "obsessional"]
 	},
 	"Impulsive": {
 		"meaning": "showing behaviour in which you do things suddenly without any planning and without considering the effects they may have",
 		"category": [],
-		"synonyms": []
+		"synonyms": ["obsessive", "compulsive", "spontaneous"]
 	},
 	"Conceited": {
 		"meaning": "too proud of yourself and your actions and abilities",
 		"category": [],
-		"synonyms": []
+		"synonyms": ["arrogant", "smug", "proud"]
 	},
 	"Conceive": {
 		"meaning": "to imagine something",
 		"category": [],
-		"synonyms": []
+		"synonyms": ["imagine", "envision", "see"]
 	},
 	"Concession": {
 		"meaning": "a reduction in the usual price of something, made available to students, old people, etc",
 		"category": [],
-		"synonyms": []
+		"synonyms": ["negotiation", "compromise", "consensus"]
 	},
 	"Condemn": {
 		"meaning": "to criticize something or someone strongly, usually for moral reasons",
 		"category": [],
-		"synonyms": []
+		"synonyms": ["denounce", "criticize", "blame"]
 	},
 	"Confront": {
 		"meaning": "to face, meet, or deal with a difficult situation or person",
 		"category": [],
-		"synonyms": []
+		"synonyms": ["face", "brave", "dare"]
 	},
 	"Clinical": {
 		"meaning": "expressing no emotion or feelings",
 		"category": [],
-		"synonyms": []
+		"synonyms": ["professional", "detached", "silent"]
 	},
 	"Strive": {
 		"meaning": "to try very hard to do something or to make something happen, especially for a long time or against difficulties",
 		"category": [],
-		"synonyms": []
+		"synonyms": ["struggle", "labor", "work"]
 	},
 	"Grin": {
 		"meaning": "a wide smile",
 		"category": [],
-		"synonyms": []
+		"synonyms": ["smile", "laugh", "beam"]
 	},
 	"Smug": {
 		"meaning": "proud; too pleased or satisfied about something you have achieved or something you know",
@@ -743,7 +737,7 @@
 	"Consensus": {
 		"meaning": "a generally accepted opinion or decision among a group of people",
 		"category": [],
-		"synonyms": []
+		"synonyms": ["agreement", "unison", "unanimity"]
 	},
 	"Constitution": {
 		"meaning": "the general state of someone's health",
@@ -753,12 +747,12 @@
 	"Subtle": {
 		"meaning": "not loud, bright, noticeable, or obvious in any way ",
 		"category": [],
-		"synonyms": []
+		"synonyms": ["cunning", "cute", "slick"]
 	},
 	"Legible": {
 		"meaning": "Legible writing or print can be read easily",
 		"category": [],
-		"synonyms": []
+		"synonyms": ["understandable", "accessible", "comprehensible"]
 	},
 	"Adorn": {
 		"meaning": "to add something decorative to a person or thing",
@@ -773,7 +767,7 @@
 	"Illuminate": {
 		"meaning": "to light something and make it brighter",
 		"category": [],
-		"synonyms": []
+		"synonyms": ["illumine", "light", "brighten"]
 	},
 	"Crisp": {
 		"meaning": "cold, fresh and dry",
@@ -818,7 +812,7 @@
 	"Stiff": {
 		"meaning": "behaving in a way that is formal and not relaxed",
 		"category": [],
-		"synonyms": []
+		"synonyms": ["rigid", "stiffened", "solid"]
 	},
 	"Adamant": {
 		"meaning": "impossible to persuade, or unwilling to change an opinion or decision",
@@ -828,12 +822,12 @@
 	"Lump": {
 		"meaning": "a piece of a solid substance, usually with no particular shape",
 		"category": [],
-		"synonyms": []
+		"synonyms": ["chunk", "clump", "hunk"]
 	},
 	"Fidget": {
 		"meaning": "to make continuous, small movements, especially if they do not have a particular purpose and you make them without meaning to, for example because you are nervous or bored",
 		"category": [],
-		"synonyms": []
+		"synonyms": ["twitch", "squirm", "toss"]
 	},
 	"Lap": {
 		"meaning": "the top surface of the upper part of the legs of a person who is sitting down",
@@ -843,7 +837,7 @@
 	"Scuff": {
 		"meaning": "a mark made by scraping or grazing a surface or object",
 		"category": [],
-		"synonyms": []
+		"synonyms": ["scratch", "scrape", "graze"]
 	},
 	"Graze": {
 		"meaning": "to break the surface of the skin by rubbing against something rough",
@@ -853,7 +847,7 @@
 	"Usher": {
 		"meaning": "to show someone where they should go, or to make someone go where you want them to go",
 		"category": [],
-		"synonyms": []
+		"synonyms": ["steer", "guide", "lead"]
 	},
 	"Cramped": {
 		"meaning": "not having enough space or time",
@@ -868,7 +862,7 @@
 	"Cascade": {
 		"meaning": "to fall quickly and in large amounts",
 		"category": [],
-		"synonyms": []
+		"synonyms": ["waterfall", "fall(s)", "cataract"]
 	},
 	"Cling": {
 		"meaning": "to stick onto or hold something or someone tightly, or to refuse to stop holding it, him, or her",
@@ -898,12 +892,12 @@
 	"Seep": {
 		"meaning": "to move or spread slowly out of a hole or through something",
 		"category": [],
-		"synonyms": []
+		"synonyms": ["drip", "flow", "percolate"]
 	},
 	"Swirl": {
 		"meaning": "to move quickly with a twisting, circular movement, or to make something do this",
 		"category": [],
-		"synonyms": []
+		"synonyms": ["stir", "wash", "shake"]
 	},
 	"Porous": {
 		"meaning": "Something that is porous has many small holes, so liquid or air can pass through, especially slowly",
@@ -918,7 +912,7 @@
 	"Exorbitantly": {
 		"meaning": "in a way that is much too much, or much too expensive",
 		"category": [],
-		"synonyms": []
+		"synonyms": ["overly", "too", "excessively"]
 	},
 	"Ward off": {
 		"meaning": "to prevent someone or something unpleasant from harming or coming close to you",
@@ -938,12 +932,12 @@
 	"Feat": {
 		"meaning": "something difficult needing a lot of skill, strength, courage, etc. to achieve it",
 		"category": [],
-		"synonyms": []
+		"synonyms": ["achievement", "stunt", "deed"]
 	},
 	"Shriek": {
 		"meaning": "a short, loud, high cry, especially one produced suddenly as an expression of a powerful emotion",
 		"category": [],
-		"synonyms": []
+		"synonyms": ["scream", "squeal", "yell"]
 	},
 	"Rapt": {
 		"meaning": "giving complete attention, or showing complete involvement, or (of attention) complete",
@@ -953,17 +947,17 @@
 	"Crush": {
 		"meaning": "a crowd of people forced to stand close together",
 		"category": [],
-		"synonyms": []
+		"synonyms": ["mash", "squeeze", "pulp"]
 	},
 	"Infatuation": {
 		"meaning": "strong but not usually lasting feelings of love or attraction",
 		"category": [],
-		"synonyms": []
+		"synonyms": ["crush", "passion", "obsession"]
 	},
 	"Slip": {
 		"meaning": "to go somewhere or put something somewhere quickly, often so that you are not noticed",
 		"category": [],
-		"synonyms": []
+		"synonyms": ["fall", "sag", "slump"]
 	},
 	"Prominent": {
 		"meaning": "Something that is in a prominent position can easily be seen or noticed",
@@ -978,7 +972,7 @@
 	"Part": {
 		"meaning": "to separate or cause something or someone to separate",
 		"category": [],
-		"synonyms": []
+		"synonyms": ["portion", "section", "segment"]
 	},
 	"Residue": {
 		"meaning": "the part that is left after the main part has gone or been taken away, or a substance that remains after a chemical process such as evaporation",
@@ -988,7 +982,7 @@
 	"Admission": {
 		"meaning": "the act of agreeing that something is true, especially unwillingly",
 		"category": [],
-		"synonyms": []
+		"synonyms": ["confession", "insistence", "acknowledgement"]
 	},
 	"Frivolous": {
 		"meaning": "behaving in a silly way and not taking anything seriously",
@@ -1008,17 +1002,17 @@
 	"Wrinkle": {
 		"meaning": "a small line in the skin caused by old age",
 		"category": [],
-		"synonyms": []
+		"synonyms": ["furrow", "crease", "crinkle"]
 	},
 	"Cane": {
 		"meaning": "a long stick used especially by old, ill, or blind people to help them walk",
 		"category": [],
-		"synonyms": []
+		"synonyms": ["baton", "mace", "bat"]
 	},
 	"Perplexing": {
 		"meaning": "confusing, often because you do not know how to solve something",
 		"category": [],
-		"synonyms": []
+		"synonyms": ["baffling", "puzzling", "confusing"]
 	},
 	"Shabby": {
 		"meaning": "looking old and in bad condition because of being used for a long time or not being cared for / not honourable or fair; unacceptable",
@@ -1033,17 +1027,17 @@
 	"Beckon": {
 		"meaning": "to move your hand or head in a way that tells someone to come nearer",
 		"category": [],
-		"synonyms": []
+		"synonyms": ["motion", "wave", "gesture"]
 	},
 	"Curtsy": {
 		"meaning": "When a girl or woman curtsies, she bends quickly at the knees, with one foot in front of the other, often while holding her skirt, especially to show respect",
 		"category": [],
-		"synonyms": []
+		"synonyms": ["bow", "salute", "obeisance"]
 	},
 	"Sternly": {
 		"meaning": "in a way that shows disapproval",
 		"category": [],
-		"synonyms": []
+		"synonyms": ["harshly", "severely", "oppressively"]
 	},
 	"Gravely": {
 		"meaning": "seriously",
@@ -1063,27 +1057,27 @@
 	"Mumble": {
 		"meaning": "to speak quietly and in a way that is not clear so that the words are difficult to understand ",
 		"category": [],
-		"synonyms": []
+		"synonyms": ["mutter", "muttering", "grunting"]
 	},
 	"Wager": {
 		"meaning": "used to say that you are certain that something is true or will happen in the future ",
 		"category": [],
-		"synonyms": []
+		"synonyms": ["stake", "bet", "pool"]
 	},
 	"Innate": {
 		"meaning": "an innate quality or ability is one that you were born with, not one you have learnt",
 		"category": [],
-		"synonyms": []
+		"synonyms": ["inherent", "intrinsic", "integral"]
 	},
 	"Muddled": {
 		"meaning": "badly organised or confusing",
 		"category": [],
-		"synonyms": []
+		"synonyms": ["messy", "chaotic", "confused"]
 	},
 	"Leeway": {
 		"meaning": "freedom to act withing particular limits",
 		"category": [],
-		"synonyms": []
+		"synonyms": ["slack", "latitude", "space"]
 	},
 	"Eccentric": {
 		"meaning": "strange or unusual, sometimes in a humourous way",
@@ -1103,7 +1097,7 @@
 	"Refute": {
 		"meaning": "to say or prove that a person, statement, opinion, etc. is wrong or false",
 		"category": [],
-		"synonyms": []
+		"synonyms": ["deny", "reject", "contradict"]
 	},
 	"Transaction": {
 		"meaning": "an occasion when someone buys or sells something, or when money is exchanged or the activity of buying or selling something",
@@ -1113,7 +1107,7 @@
 	"Haze": {
 		"meaning": "something such as heat or smoke in the air that makes it less clear, so that it is difficult to see wel",
 		"category": [],
-		"synonyms": []
+		"synonyms": ["fog", "cloud", "mist"]
 	},
 	"l Fawn over": {
 		"meaning": "to praise someone too much and give them a lot of attention that is not sincere, in order to get a positive reaction",
@@ -1153,7 +1147,7 @@
 	"Incandescent": {
 		"meaning": "producing a bright light from a heated filament or other part/ extremely bright",
 		"category": [],
-		"synonyms": []
+		"synonyms": ["luminous", "glowing", "shining"]
 	},
 	"Chuckle": {
 		"meaning": "to laugh quietly",
@@ -1223,7 +1217,7 @@
 	"Deception": {
 		"meaning": "the act of hiding the truth, especially to get an advantage",
 		"category": [],
-		"synonyms": []
+		"synonyms": ["deceit", "deceptiveness", "fraud"]
 	},
 	"Meld": {
 		"meaning": "to (cause something to) combine with something else",
@@ -1263,7 +1257,7 @@
 	"Benevolent": {
 		"meaning": "kind and helpful",
 		"category": [],
-		"synonyms": []
+		"synonyms": ["compassionate", "kind", "sympathetic"]
 	},
 	"Descendant": {
 		"meaning": "a person who is related to you and who lives after you, such as your child or grandchild",
@@ -1413,7 +1407,7 @@
 	"Provoke": {
 		"meaning": "to cause a reaction, especially a negative one",
 		"category": [],
-		"synonyms": []
+		"synonyms": ["encourage", "stimulate", "stir"]
 	},
 	"Tentatively": {
 		"meaning": "in a way that shows you are not certain or confident",

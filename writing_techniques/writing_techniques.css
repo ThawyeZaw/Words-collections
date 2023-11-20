@@ -1,0 +1,30 @@
+.list {
+  margin-bottom: 2em;
+}
+
+.list > * {
+  margin-bottom: 0.7em;
+}
+
+wrapper > ol > li {
+  margin-bottom: 2em;
+}
+
+#Connetives td, th {
+  border-right: 1px solid #fff;
+}
+
+table, th, td {
+  padding: 5px 10px;
+  border: 1px solid #fff;
+  border-collapse: collapse;
+}
+
+p {
+  margin: 0.4em;
+  font-style: italic;
+}
+
+b {
+  font-style: italic;
+}

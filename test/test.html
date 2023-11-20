@@ -1,0 +1,59 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+	</head>
+	<body>
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+			integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		></script>
+		<script>
+			let fetchWords = [],
+				data = []
+			fetch(`../assets/words.json`)
+				.then(res => res.json())
+				.then(json => {
+					data = json
+					let words = [],
+						needTo = []
+					for (const word in json) {
+						words.push([word, json[word]])
+					}
+					const filteredWords = words.filter(word => word[1].synonyms == '')
+					fetchWords = filteredWords
+				})
+				.catch(err => {
+					alert('An error has occured!\nPlease reload.')
+					console.log(err)
+				})
+			setTimeout(() => {
+				console.log(data)
+				console.log(fetchWords)
+				fetchWords.forEach(word => {
+					$.ajax({
+						method: 'GET',
+						url: 'https://api.api-ninjas.com/v1/thesaurus?word=' + word[0],
+						headers: { 'X-Api-Key': 'YwcjcUuIieDGxDekRINWYQ==8ii15bwRcThDyLli' },
+						contentType: 'application/json',
+						success: function (result) {
+							// console.log(result)
+							let synonyms = result.synonyms.slice(0, 3)
+							for (let i = 0; i < synonyms.length; i++) {
+								data[word[0]].synonyms.push(result.synonyms[i])
+							}
+						},
+						error: function ajaxError(jqXHR) {
+							console.error('Error: ', jqXHR.responseText)
+						},
+					})
+				})
+				console.log(data)
+			}, 1000)
+		</script>
+	</body>
+</html> -->

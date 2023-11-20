@@ -79,6 +79,15 @@ hr {
   border-radius: 20px;
 }
 
+.wait {
+  position: fixed;
+  width: 30vmax;
+  aspect-ratio: 5/3;
+  background: beige;
+  color: slategray;
+  display: none;
+}
+
 /* .word{
   padding-bottom: 0em;
 } */

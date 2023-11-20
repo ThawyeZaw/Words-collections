@@ -1,8 +1,8 @@
 const list = document.querySelector(".list")
-let fetchedData, currentWords
+let fetchedData, currentWords, htmlValue
 
 const displayWords = (word, meaning, category, synonyms) => {
-  list.innerHTML += `
+  htmlValue += `
       <li class="word" id ="${word}">
       <p style="display: flex;">
         <b>${word}</b>
@@ -32,6 +32,7 @@ fetch("/./assets/words.json")
   .then(json => {
     fetchedData = json
     currentWords = fetchedData
+    htmlValue = ''
     for (const word in json) {
       /* ------------- declare variables ------------ */
       let { meaning, category, synonyms } = json[word],
@@ -44,6 +45,7 @@ fetch("/./assets/words.json")
       /* ------------ show result in html ----------- */
       displayWords(word, meaning, output_1, output_2)
     }
+    list.innerHTML += htmlValue
   })
   /* ------ check error and alert if found ------ */
   .catch(err => {
@@ -56,6 +58,7 @@ function filterWords() {
   let selectedWords = []
   let checkedCategory = document.querySelectorAll("input[name='category']:checked"),
     chosenCategories = []
+
   checkedCategory.forEach(c => chosenCategories.push(c.value))
   for (const word in fetchedData) {
     let ifExist = chosenCategories.every(value => {
@@ -67,10 +70,12 @@ function filterWords() {
     }
   }
   list.innerHTML = ""
+  htmlValue = ''
   selectedWords.forEach(word => {
     console.log(word)
     displayWords(word[0], word[1].meaning, word[1].category, word[1].synonyms)
   })
+  list.innerHTML += htmlValue
   toggleDefinition()
   currentWords = {}
   selectedWords.forEach((word) => {
@@ -80,6 +85,7 @@ function filterWords() {
 /* ------- removing the filter function ------- */
 function removeFilter() {
   list.innerHTML = ''
+  htmlValue = ''
   for (const word in fetchedData) {
     /* ------------- declare variables ------------ */
     let { meaning, category, synonyms } = fetchedData[word],
@@ -93,6 +99,7 @@ function removeFilter() {
     displayWords(word, meaning, output_1, output_2)
     toggleDefinition()
   }
+  list.innerHTML += htmlValue
   currentWords = fetchedData
 }
 
@@ -139,10 +146,13 @@ setTimeout(() => {
 }, 1000)
 
 /* ----- sort words by alphabetical order ----- */
+let wait = document.querySelector('.wait')
 function sort(order) {
+  // wait.style.display = 'block'
   list.innerHTML = ''
   let keys = Object.keys(currentWords),
-    sortedData = {}
+    sortedData = {}, htmlValue = ''
+
   keys.sort(function (a, b) {
     return a.toLowerCase().localeCompare(b.toLowerCase());
   })
@@ -155,8 +165,42 @@ function sort(order) {
     const k = keys[i];
     sortedData[k] = fetchedData[k]
   }
+  htmlValue = ''
   for (const key in sortedData) {
-    displayWords(key, sortedData[key].meaning, sortedData[key].category, sortedData[key].synonyms)
+    // displayWords(key, sortedData[key].meaning, sortedData[key].category, sortedData[key].synonyms)
+    /* ------------- declare variables ------------ */
+    let { meaning, category, synonyms } = sortedData[key],
+      categories = [], synonym = []
+    /* ----- display the catgory and synonyms ----- */
+    synonyms.map(s => synonym.push(`<li>${s}</li>`))
+    category.map(c => categories.push(`<li>${c}</li>`))
+    let output_1 = categories.join(""),
+      output_2 = synonym.join("")
+    htmlValue += `
+    <li class="word" id ="${key}">
+    <p style="display: flex;">
+      <b>${key}</b>
+      <span>--- ${meaning}</span>
+    <p>
+        <ul class="about">
+          <li>
+            <i>categories</i>
+            <ul>
+            ${output_1}
+            </ul>
+          </li>
+          <li>
+            <i>synonyms</i>
+            <ul>
+            ${output_2}
+            </ul>
+          </li>
+        </ul>
+        <hr>
+      </li>`
+    // console.log(key, sortedData[key])
+    // list.innerHTML += `${key} : ${sortedData[key]}`
   }
+  list.innerHTML = htmlValue
   toggleDefinition()
 }
