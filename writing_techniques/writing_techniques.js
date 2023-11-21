@@ -46,7 +46,7 @@ const list = document.querySelector('.list'),
     </blockquote>
     ` },
     {
-      name: 'Repition', notes: `
+      name: 'Repetition', notes: `
     In writing, repetition - with individual letters and sounds, single words, phrases, or even ideas - are used 
     to emphasize a point and to <b>show the importance</b> of somthing from the contents.
     <blockquote>
@@ -74,13 +74,13 @@ const list = document.querySelector('.list'),
       </tr>
       </table>
     </blockquote>
-    Read more about Connectives here : <a href="/./Connetives/connetives.html">link</a>
+    Read more about Connectives here : <a href="https://www.twinkl.com/teaching-wiki/connectives" target="_blank">link</a>
     ` },
     {
       name: 'Variety of sentence structures', notes: `
     Varied sentence structures - simple, compound, complex - engage reader's interest.
 		<blockquote>
-			<table>
+			<table class="sentence">
 				<tr>
 					<th>Minor</th>
 					<td>- does not necessarily have a main verb in it, but which can be understood as a complete unit of meaning.</td>
@@ -105,7 +105,7 @@ const list = document.querySelector('.list'),
 				</tr>
 			</table>
 		</blockquote>
-    Read more about Sentence Structures here : <a href="/./sentence_structure/sentence_structure.html">link</a>
+    Read more about Sentence Structures here : <a href="/./sentence_structure/sentence_structure.html" target="_blank">link</a>
     ` },
     { name: 'Use of punctuation', notes: `
     Punctuation control how you read the text.
@@ -127,7 +127,7 @@ const list = document.querySelector('.list'),
       <p>Single Quotation Marks (‘ ’)</p>
       <p>Ellipsis (...)</p>
     </blockquote>
-    Read more about Punctuations here : <a href="/./punctuation/punctuation.html">link</a>
+    Read more about Punctuations here : <a href="https://www.yourdictionary.com/articles/english-punctuation-marks" target="_blank">link</a>
 
     ` },
     { name: 'Paragraphing', notes: `
@@ -142,7 +142,7 @@ const list = document.querySelector('.list'),
       <li><b>Sensory Words</b> and Sentences: Sight, Sound, Smell, Taste and Touch.<br><br></li>
       <li><b>Figurative languages:</b> Alliteration, Metaphor, Simile, Onomatopeia...<br><br></li>
     </ul>
-    Read more here about descriptive languages here: <a href="/./Descriptive/descriptive.html">link</a>
+    Read more here about descriptive languages here: <a href="/./Descriptive/descriptive.html" target="_blank">link</a>
     ` },
     { name: 'Superlatives', notes: `
     Superlatives suggest that something is the best (or worst).

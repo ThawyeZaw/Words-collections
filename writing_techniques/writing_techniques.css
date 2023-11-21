@@ -1,3 +1,7 @@
+body {
+  width: 100vw;
+}
+
 .list {
   margin-bottom: 2em;
 }
@@ -6,12 +10,20 @@
   margin-bottom: 0.7em;
 }
 
-wrapper > ol > li {
-  margin-bottom: 2em;
+.wrapper > ol > li {
+  margin-bottom: 3em;
 }
 
 #Connetives td, th {
   border-right: 1px solid #fff;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.notes {
+  overflow: scroll;
 }
 
 table, th, td {
@@ -27,4 +39,8 @@ p {
 
 b {
   font-style: italic;
+}
+
+table.sentence tr > *:nth-child(2) {
+  min-width: 33ch;
 }
