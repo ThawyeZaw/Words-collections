@@ -22,14 +22,14 @@ body {
   display: none;
 }
 
-.notes {
-  overflow: scroll;
-}
-
 table, th, td {
   padding: 5px 10px;
   border: 1px solid #fff;
   border-collapse: collapse;
+}
+
+table.emotive, table.emotive * {
+  border: none;
 }
 
 p {

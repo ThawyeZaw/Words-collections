@@ -107,7 +107,8 @@ const list = document.querySelector('.list'),
 		</blockquote>
     Read more about Sentence Structures here : <a href="/./sentence_structure/sentence_structure.html" target="_blank">link</a>
     ` },
-    { name: 'Use of punctuation', notes: `
+    {
+      name: 'Use of punctuation', notes: `
     Punctuation control how you read the text.
     <blockquote>
       <p>Period ( . )</p>
@@ -130,11 +131,13 @@ const list = document.querySelector('.list'),
     Read more about Punctuations here : <a href="https://www.yourdictionary.com/articles/english-punctuation-marks" target="_blank">link</a>
 
     ` },
-    { name: 'Paragraphing', notes: `
+    {
+      name: 'Paragraphing', notes: `
     Variety in paragraphing add interest for the reader. 
     <blockquote>You may use a different paragraph for different topic.</blockquote>
     ` },
-    { name: 'Descriptive terms', notes: `
+    {
+      name: 'Descriptive terms', notes: `
     Descriptive words describes or gives us more information about things. They can paint a picture in the readers' mind's eyes.
     <blockquote><b>Show, Don’t Tell!</b></blockquote>
     Descriptive terms may refer to <br><br>
@@ -144,7 +147,8 @@ const list = document.querySelector('.list'),
     </ul>
     Read more here about descriptive languages here: <a href="/./Descriptive/descriptive.html" target="_blank">link</a>
     ` },
-    { name: 'Superlatives', notes: `
+    {
+      name: 'Superlatives', notes: `
     Superlatives suggest that something is the best (or worst).
     <blockquote>
       "That’s the <b>most boring</b> class I’ve ever attended."
@@ -152,18 +156,146 @@ const list = document.querySelector('.list'),
       <br><br>"Kerry is the <b>least friendly</b> of all your sisters."
     </blockquote>
     ` },
-    { name: 'Shock tactics', notes: `
+    {
+      name: 'Shock tactics', notes: `
     You shall include details or imagery in your writings that will <b>shock or surprise the reader</b> and <b>get their attention</b>.
     <blockquote>
       "For the first time since the destruction of the dinosaurs, we face a global mass extinction of wildlife."
       <br><br>"It's a terrible accident waiting to happen.
     "</blockquote>
       ` },
-    { name: 'Assertive language', notes: `
+    {
+      name: 'Assertive language', notes: `
     Assertiveness means expressing your point of view in a way that is clear and direct, while still respecting others.
     <blockquote>Everybody knows / Without questions / It is undeniable that....</blockquote>
     It shows the confidence and affirmation of the writer in topic under discussion.
     ` },
+    {
+      name: 'Imagery', notes: `
+      <b>Similes and metaphor</b> create vivid images. It helps reader visualize and understand writer's point of view.
+      <blockquote>"The autumn leaves are a blanket on the ground."<br><br>
+      "The houses look like frosted cakes in winter."<br><br>
+      "I came inside because the house smells like a chocolate brownie."</blockquote>
+      People frequently use imagery as a means of communicating feelings, thoughts, and ideas through descriptive language.
+      `
+    },
+    {
+      name: 'Alliteration', notes: `
+      Alliteration is a <b>repetition of consonant sounds</b> in the beginnings of multiple words.<br>
+      It makes certain words stand out.
+      <blockquote>"I feel like making melodies in my heart."<br><br>
+      "Can you keep the cat from clawing the couch? It's creating chaos."<br><br>
+      "Hannah's home has heat now, hopefully."</blockquote>
+      Alliteration creates a flow and music in the verses. When sounds are similar, they seem soothing to the ears and facilitate reading.`
+    },
+    {
+      name: 'Onomatopoeia', notes: `
+      Onomatopoeia is used to evoke sounds through the use of words.
+      <blockquote>"Squeak", "Crack", "Tweet", "Chirp", "Meow"</blockquote>
+      Onomatopoetic words are descriptive and provide a sensory effect and vivid imagery in terms of sight and sound.
+      `
+    },
+    {
+      name: 'Emotive langauge', notes: `
+      Emotive language is the term used when certain word choices are made to evoke an emotional response from a reader.<br>
+      Noun, verb, adjective and adverb works together to create <b>a dramatic effect.</b>
+      <blockquote><table class="emotive">
+      <tr><td>Adjectives</td><td> - </td><td>appalling, wonderful, magical, and tragic.</td></tr>
+			<tr><td>Abstract Nouns</td><td> - </td><td>freedom, pride, justice, love, and terror.</td></tr>
+			<tr><td>Verbs</td><td> - </td><td>destroyed, vindicated, saved, betrayed, and adored.</td></tr>
+			<tr><td>Emotive Adverbs</td><td> - </td><td>angrily, defiantly, proudly, and beautifully.</td></tr>
+		  </table></blockquote>
+      `
+    },
+    {
+      name: 'Puns and Jokes', notes: `
+      A pun is a play on words, centering on <b>a word with more than one meaning or words that sound alike.</b><br>
+      Puns and Jokes <b>provide humour.</b>
+      <blockquote>"Do you want to ketchup?"<br><br>
+      "Enjoy your pizza while it lasts. It's here today, gone tomato."<br><br>
+      "Dogs are such good companions because they're so paw-sitive."</blockquote>
+      `
+    },
+    {
+      name: 'Statistics or facts', notes: `
+      <b>Figures</b> are used to reinforce opinion and add athenticity to the writing.<br>
+      Statistics and facts make writing more reliable and make reader agree.
+      <blockquote>"There has been a 50% increase in number of chocolate bars sold over the past year."</blockquote>
+      <ul>
+      <li><b>Textual analysis</b></li>
+      <li><b>Character analysis</b></li>
+      <li><b>Historical context</b></li>
+      <li><b>Comparative analysis</b></li>
+      <li><b>Reader response</b></li>
+    </ul>`
+    },
+    {
+      name: 'Expert Opinion', notes: `
+      
+      `
+    },
+    {
+      name: 'Reference to satisfied customers', notes: ``
+    },
+    {
+      name: 'Irony', notes: `
+      Irony occurs when what actually happens turns out to be completely different from what would be expected.
+      <br>In writing or speaking, irony involves using words so the intended meaning is the opposite of the literal meaning.
+      <blockquote></blockquote>
+      <ul>
+      <li><b>Dramatic Irony</b><br><br></li>
+      <li><b>Situational Irony</b><br><br></li>
+      <li><b>Verbal Irony</b><br><br></li>
+      </ul>
+      Read more here about Irony here: <a href="https://www.yourdictionary.com/articles/examples-irony-types-meanings" target="_blank">link</a>
+      `
+    },
+    {
+      name: "Use of 'I'", notes: `
+      Writing in first person means writing from the author's point of view or perspective. 
+      `
+    },
+    {
+      name: 'Personal anecdote', notes: `
+      Personal anecdotes refer to a short story or account about <b>a person or event</b> that is typically amusing, informative, entertaining, or biographical in nature.
+      <blockquote>"I remember learning how to swim. I took lessons at the community pool in the town where I grew up. One of the lifeguards,...."</blockquote>
+      It provide interest for the audience through recounting <b>a personal exprience.</b>
+      `
+    },
+    {
+      name: 'Coversational tone', notes: `
+      To connect with your audience as much as possible, you must make your content relatable. That is where a conversational tone can be helpful.
+      <blockquote><b>Write the Way You Talk</b></blockquote>
+      It add a personal quality to the writing and <b>create a positive rapport</b> between the writer and the reader.
+      `
+    },
+    {
+      name: 'Inclusive pronoun', notes: `
+      Writers use 'we' or 'our' to <b>persuade the reader</b> to agree with them.
+      <blockquote>"With this faith, <b>we</b> will be able to hew out of the mountain of despair a stone of hope. With this faith, <b>we</b> will be able to transform the jangling discords of <b>our</b> nation into a beautiful symphony of brotherhood. With this faith, <b>we</b> will be able to work together, to pray together, to struggle together, to go to jail together, to stand up for freedom together, knowing that <b>we</b> will be free one day."</blockquote>
+      It creates a sense of togetherness and blurs the author-reader divide.
+      `
+    },
+    {
+      name: 'Personal pronoun', notes: `
+      Writers use 'you' to make the reader feel writer is directly talking to them;<br>
+      therefore, it is highly personal and effective.
+      <blockquote>
+      "My fellow Americans, ask not what your country can do for you, ask what you can do for your country." - John F. Kennedy<br></blockquote>
+      `
+    },
+    {
+      name: 'Indirect involvement', notes: ``
+    },
+    {
+      name: 'Graphic language', notes: ``
+    },
+    {
+      name: 'Hyperbole', notes: ``
+    },
+    {
+      name: 'Group of three', notes: ``
+    }
   ]
 
 tips_lists.forEach(tip => {
