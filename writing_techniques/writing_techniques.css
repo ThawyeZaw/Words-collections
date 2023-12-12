@@ -1,46 +1,96 @@
 body {
-  width: 100vw;
+	width: 100vw;
 }
-
+* {
+	scroll-behavior: smooth;
+}
+.container {
+  width: clamp(500px, 100vw, 1500px);
+}
+.hero {
+	font-size: 1.1em;
+}
+.hero input {
+	width: 30ch;
+  font-size: 1rem;
+	background: none;
+	outline: none;
+	border: none;
+	border-bottom: 1px solid white;
+	color: white;
+}
+.hero button {
+	margin: 0.5em 0 0 6ch;
+	padding: 0.5em 1em;
+	border-radius: 1em;
+	transition: 0.3s;
+}
+.hero button:hover {
+	transform: scale(1.1);
+}
+.hero a {
+	color: inherit;
+}
 .list {
-  margin-bottom: 2em;
+	margin-bottom: 2em;
 }
-
 .list > * {
-  margin-bottom: 0.7em;
+	margin-bottom: 0.7em;
 }
-
 .wrapper > ol > li {
-  margin-bottom: 3em;
+	margin-bottom: 3em;
 }
-
-#Connetives td, th {
-  border-right: 1px solid #fff;
+#Connetives td,
+th {
+	border-right: 1px solid #fff;
 }
-
 ::-webkit-scrollbar {
-  display: none;
+	display: none;
 }
-
-table, th, td {
-  padding: 5px 10px;
-  border: 1px solid #fff;
-  border-collapse: collapse;
+table,
+th,
+td {
+	padding: 5px 10px;
+	border: 1px solid #fff;
+	border-collapse: collapse;
 }
-
-table.emotive, table.emotive * {
-  border: none;
+table.emotive,
+table.emotive * {
+	border: none;
 }
-
+.emotive > li {
+	max-width: 80ch;
+}
+.stats > li {
+	line-height: 1.6rem;
+}
 p {
-  margin: 0.4em;
-  font-style: italic;
+	margin: 0.4em;
+	font-style: italic;
 }
-
 b {
-  font-style: italic;
+	font-style: italic;
 }
-
 table.sentence tr > *:nth-child(2) {
-  min-width: 33ch;
+	min-width: 33ch;
+}
+.tip {
+	line-height: 1.3em;
+}
+.toTop {
+	position: fixed;
+	background: rgba(255, 255, 255, 0.3);
+	color: black;
+	bottom: 0;
+	right: 0;
+	margin: 1em;
+	aspect-ratio: 1/1;
+	padding: 1vw;
+	line-height: 100%;
+	vertical-align: middle;
+	border-radius: 100%;
+	display: none;
+	align-items: center;
+	text-decoration: underline;
+	cursor: grab;
 }

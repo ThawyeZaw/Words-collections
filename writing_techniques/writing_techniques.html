@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="viewport" content="width=device-width, initial-scale=0.5" />
 		<title>Writing Tips</title>
 		<link rel="stylesheet" href="/./src/style.css" />
 		<link rel="stylesheet" href="./writing_techniques.css" />
@@ -10,12 +10,21 @@
 	<body>
 		<div class="container">
 			<h1>Writing Techniques</h1>
-			<ol class="list"></ol>
+			<div class="hero">
+				<div class="find">
+					<label for="tip">Find: </label>
+					<input type="text" name="tip" id="tip" placeholder="a writing technique" list="tips">
+					<datalist id="tips"></datalist>
+					<br><a href="#"><button>Go</button></a>
+				</div>
+				<ol class="list"></ol>
+			</div>
 			<hr />
 			<div class="wrapper">
 				<ol>
 				</ol>
 			</div>
+			<div class="toTop">To top</div>
 		</div>
 		<script src="./writing_techniques.js"></script>
 		<script src="/./src/script.js"></script>

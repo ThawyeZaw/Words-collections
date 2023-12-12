@@ -192,7 +192,9 @@ const list = document.querySelector('.list'),
       name: 'Onomatopoeia', notes: `
       Onomatopoeia is used to evoke sounds through the use of words.
       <blockquote>"Squeak", "Crack", "Tweet", "Chirp", "Meow"</blockquote>
-      Onomatopoetic words are descriptive and provide a sensory effect and vivid imagery in terms of sight and sound.
+      Onomatopoetic words are descriptive and provide a sensory effect and vivid imagery in terms of sight and sound.<br><br>
+    Read more about Onomatopoeia here : <a href="https://www.yourdictionary.com/articles/sound-onomatopoeia-examples" target="_blank">link</a>
+
       `
     },
     {
@@ -205,34 +207,46 @@ const list = document.querySelector('.list'),
 			<tr><td>Verbs</td><td> - </td><td>destroyed, vindicated, saved, betrayed, and adored.</td></tr>
 			<tr><td>Emotive Adverbs</td><td> - </td><td>angrily, defiantly, proudly, and beautifully.</td></tr>
 		  </table></blockquote>
+
+      <ul class="emotive">
+        <li>"Can you really abandon these puppies to life in such filthy kennels?"</li><br>
+        <li>"An innocent bystander was murdered in cold blood in Downtown Chicago."</li><br>
+        <li>"One hundred years later the life of the Negro is still badly crippled by the manacles of segregation and the chains of discrimination. 
+        One hundred years later the Negro lives on a lonely island of poverty in the midst of a vast ocean of material prosperity."</li>
+      </ul>
       `
     },
     {
       name: 'Puns and Jokes', notes: `
       A pun is a play on words, centering on <b>a word with more than one meaning or words that sound alike.</b><br>
-      Puns and Jokes <b>provide humour.</b>
       <blockquote>"Do you want to ketchup?"<br><br>
       "Enjoy your pizza while it lasts. It's here today, gone tomato."<br><br>
       "Dogs are such good companions because they're so paw-sitive."</blockquote>
+      Puns and Jokes <b>provide humour.</b><br><br>
+      "The soccer player bring string to the game, so they could tie the score!"
       `
     },
     {
       name: 'Statistics or facts', notes: `
       <b>Figures</b> are used to reinforce opinion and add athenticity to the writing.<br>
-      Statistics and facts make writing more reliable and make reader agree.
+      Statistics and facts <b>make writing more reliable</b> and make reader agree.
       <blockquote>"There has been a 50% increase in number of chocolate bars sold over the past year."</blockquote>
-      <ul>
-      <li><b>Textual analysis</b></li>
-      <li><b>Character analysis</b></li>
-      <li><b>Historical context</b></li>
-      <li><b>Comparative analysis</b></li>
-      <li><b>Reader response</b></li>
+      <ul class="stats">
+      <li>Textual analysis</li>
+      <li>Character analysis</li>
+      <li>Historical context</li>
+      <li>Comparative analysis</li>
+      <li>Reader response</li>
     </ul>`
     },
     {
       name: 'Expert Opinion', notes: `
+      A belief or judgment about something given by an expert on the subject, expert opinion, <b>makes the writing more convincing.</b>
+      <blockquote>
+      "According to nutrition experts, incorporating a variety of colorful vegetables into your diet is essential for optimal health."<br><br>
+      "Effective communication skills are fundamental for success in today's workplace, as emphasized by renowned HR specialists."<br><br>
       
-      `
+"Dr. Jane Smith, a renowned psychologist, emphasizes the importance of self-care for mental well-being."</blockquote>`
     },
     {
       name: 'Reference to satisfied customers', notes: ``
@@ -252,13 +266,22 @@ const list = document.querySelector('.list'),
     },
     {
       name: "Use of 'I'", notes: `
-      Writing in first person means writing from the author's point of view or perspective. 
+      Writing in first person means writing from the author's point of view or perspective.
+      <blockquote>
+      "I couldn't help but feel an overwhelming sense of awe as I stood beneath the star-studded night sky, each twinkling light a reminder of the vastness of the universe."<br>
+      <br>"I felt an overwhelming sense of joy as I watched the sun dip below the horizon, painting the sky in hues of fiery orange and pink."
+      </blockquote>
+      Writing in the first person helps an author <b>put the audience inside the character's head.</b><br>
+      It makes the speaker more relatable and sympathetic.
       `
     },
     {
       name: 'Personal anecdote', notes: `
       Personal anecdotes refer to a short story or account about <b>a person or event</b> that is typically amusing, informative, entertaining, or biographical in nature.
-      <blockquote>"I remember learning how to swim. I took lessons at the community pool in the town where I grew up. One of the lifeguards,...."</blockquote>
+      <blockquote>
+      "I remember learning how to swim. I took lessons at the community pool in the town where I grew up."<br><br>
+      "In that quaint café, I discovered my love for storytelling, fueled by the aroma of freshly brewed coffee and the lively chatter of fellow dreamers."
+      </blockquote>
       It provide interest for the audience through recounting <b>a personal exprience.</b>
       `
     },
@@ -291,15 +314,21 @@ const list = document.querySelector('.list'),
       name: 'Graphic language', notes: ``
     },
     {
-      name: 'Hyperbole', notes: ``
+      name: 'Creating a rapport with readers', notes: ``
     },
     {
-      name: 'Group of three', notes: ``
+      name: 'Groups of three', notes: ``
     }
   ]
 
+const button = document.querySelector('.toTop'),
+  suggestion = document.querySelector('#tips'),
+  tipToFind = document.querySelector('.hero input')
+
 tips_lists.forEach(tip => {
   list.innerHTML += `<li><a href="#${tip.name}">${tip.name}</a></li>`
+
+  suggestion.innerHTML += `<option value="${tip.name}"></option>`
 
   ol.innerHTML += `<li class="tip" id="${tip.name}">
   <h2 class="name">${tip.name}</h2>
@@ -307,4 +336,22 @@ tips_lists.forEach(tip => {
   ${tip.notes}
     </div>
 </li>`
+})
+
+window.onscroll = function () { scrollFunction() };
+
+function scrollFunction() {
+  if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
+    button.style.display = "flex";
+  } else {
+    button.style.display = "none";
+  }
+}
+button.addEventListener("click", () => {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+})
+
+tipToFind.addEventListener("keyup", () => {
+  document.querySelector(".find a").href = "#" + tipToFind.value
 })
